@@ -1,0 +1,61 @@
+    1  sudo apt update && sudo apt upgrade
+    2  git status
+    3  sudo apt install git
+    4  git status
+    5  ls -la
+    6  mkdir aws_training_kevin
+    7  cd aws_training_kevin/
+    8  mkdir day_1
+    9  cd day_1
+   10  git init repo-
+   11  ls -la
+   12  rm -rf repo-
+   13  ls -la
+   14  git init repo-1
+   15  cd repo-1/
+   16  ls -la
+   17  git config --global user.name "Kevin"
+   18  git config --global user.email "frontend2@alphaindosoft.com"
+   19  git config --global --list
+   20  echo "<p>Ini paragraf pertama</p>" > index.html
+   21  ls -la
+   22  git status
+   23  git add .
+   24  git status
+   25  git ls-files
+   26  git reset
+   27  git ls-files
+   28  git add .
+   29  git ls-files
+   30  git commit -m "membuat file baru"
+   31  git status
+   32  git ls-files
+   33  git log
+   34  git status
+   35  history
+   36  ll
+   37  ls -la
+   38  clear
+   39  touch file{1..5}.txt
+   40  ls -la
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "Menambah 5 files txt"
+   45  git status
+   46  git ls-files
+   47  git log
+   48  git staus
+   49  git status
+   50  git branch
+   51  vim .gitignore
+   52  vi .gitignore
+   53  touch .gitignore
+   54  ls -la
+   55  vi .gitignore
+   56  vim
+   57  sudo apt install vim
+   58  ls -la
+   59  vim .gitignore
+   60  git status
+   61  history > history.txt
